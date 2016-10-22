@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color:  #ffa500;
+	color: black;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	
+
+}
+@font-face {
+    font-family: 'Snake'; /*a name to be used later*/
+    src: url('Snake_in_the_Boot.ttf'); /*URL to font*/
+}
+
+h1 { font-size: 80px; font-family: 'Snake'}
+h2 { font-size: 65px;}
+p {  font-size: 24px;}
+
+.container {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -30px auto; /* the bottom margin is the negative value of the footer's height */
+
+
+}
+
+footer, .push {
+	height: 30px; /* '.push' must be the same height as 'footer' */
+	
+	
+}
+
+
+
+img#logo {width: 20%;}
+
+
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 15px;
+    background: color #f2d591;
+
+}
+
+p#footer-text {padding-right: 10px; font-size: 18px;}
+
+footer a {
+	text-decoration: none;
+	color: #2D9DD7;
+	
+	}
+
+footer a:hover {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.ghost-container {
+width: 100%;
+position: absolute;
+text-align: center;
+visibility: hidden;
+}
+.ghost {
+z-index: 10;
+display: block;
+width: 550px;
+position: relative;
+margin: auto;
+}

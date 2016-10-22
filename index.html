@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CoderDojo Scotland Christmas</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Mountains+of+Christmas' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="container">
+
+			<h1>CODERDOJO SCOTLAND</h1>
+			<h2>HALLOWEEN 2016</h2>
+			<img id="logo" src="img/halloweenlogo.png">
+			<p>Can you find the ghost that haunts the Dojo on this website?</p>
+<button id="ghostbutton">Scare Me</button>
+
+<div class="ghost-container">
+<img class=ghost src="halloweenghost.png" alt="A picture of a scary ghost!">
+</div>
+		<div class="push"></div> <!-- this is used as part of the "sticky footer" -->
+	</div> <!-- end container -->
+
+		<footer>
+			<p id="footer-text">Made at 
+			<a href="http://coderdojoscotland.com/clubs/glasgow">Glasgow CoderDojo</a>, 
+			<a href="http://coderdojoscotland.com/">CoderDojo Scotland</a>
+			Written by Abbie
+			</p>
+		</footer>
+
+<script src="js/main.js"></script>
+<script type="text/javascript" src="js/keypress.js"></script> <!-- add the keypress library -->
+<script type="text/javascript" src="js/snowstorm.js"></script> <!-- add the snowstorm library -->
+<script type="text/javascript">
+
+/** when the sequence of letters is entered in the keyboard, it will call the function  **/
+keypress.sequence_combo("s n o w", function() { makeSnow(); }, true);
+
+function makeSnow() {
+	/** when this function is called, the snowstorm will start **/
+	console.log("Begin snowing!");
+	this.snowStorm.start();
+}
+
+</script>
+
+
+</body>
+</html>

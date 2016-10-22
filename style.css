@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #244C6D;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+
+}
+
+h1 { font-size: 80px;}
+h2 { font-size: 65px;}
+p {  font-size: 24px;}
+
+.container {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -30px auto; /* the bottom margin is the negative value of the footer's height */
+
+
+}
+
+footer, .push {
+	height: 30px; /* '.push' must be the same height as 'footer' */
+}
+
+img#logo {width: 20%;}
+
+footer {
+    width: 100%;
+    text-align: right;
+    font-size: 16px;
+    margin-right: 15px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+p#footer-text {padding-right: 10px; font-size: 18px;}
+
+footer a {
+	text-decoration: none;
+	color: #2D9DD7;
+	
+	}
+
+footer a:hover {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.7);
+}
