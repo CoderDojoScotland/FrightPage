@@ -1,9 +1,9 @@
-SnowJo
+Halloween Page
 =============
 
-A winter themed educational resource to be used at a CoderDojo. When the keyword "snow" is entered, snow starts to fall on the page.<br/>
+A halloween themed educational resource to be used at a CoderDojo, forked from our [SnowJo]( page by coder Abbie.  Are you brave enough to confront the ghost that haunts this page?<br/>
 
-[Live Demo](http://coderdojo.co/demo/snowjo/) 
+[Live Demo](http://coderdojo.co/halloween/scare/) 
 
 ##Resources
 
@@ -15,8 +15,11 @@ Uses [Keypress](http://dmauro.github.io/Keypress/)
 by [David Mauro](https://github.com/dmauro) 
 to trigger the effect when a key sequence is pressed. <br />
 
+Uses [SnowJo](https://github.com/CoderDojoScotland/SnowJo) 
+by [Craig Steele](https://github.com/Craig88) <br />
+
 ## Authors 
-[Craig Steele](https://github.com/Craig88) <br/>
+[Abbie] <br/>
 
 
 ## Licence
