@@ -1,7 +1,7 @@
 Halloween Page
 =============
 
-A halloween themed educational resource to be used at a CoderDojo, forked from our [SnowJo]( page by coder Abbie.  Are you brave enough to confront the ghost that haunts this page?<br/>
+A halloween themed educational resource to be used at a CoderDojo, forked from our [SnowJo](https://github.com/CoderDojoScotland/SnowJo)  page by coder Abbie.  Are you brave enough to confront the ghost that haunts this page?<br/>
 
 [Live Demo](http://coderdojo.co/halloween/scare/) 
 
