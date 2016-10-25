@@ -18,6 +18,8 @@ to trigger the effect when a key sequence is pressed. <br />
 Uses [SnowJo](https://github.com/CoderDojoScotland/SnowJo) 
 by [Craig Steele](https://github.com/Craig88) <br />
 
+Uses the [Ghost in the Machine](https://www.thinkful.com/learn/halloween-programming-tutorial/) tutorial from [thinkful.com](https://www.thinkful.com/)
+
 ## Authors 
 [Abbie] <br/>
 
